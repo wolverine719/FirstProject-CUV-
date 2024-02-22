@@ -1,0 +1,99 @@
+body{
+    font-family: inter;
+    font-size: 20px;
+    line-height: 32px;
+    margin:0;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background:#FFCD9E;
+    
+}
+.text
+{
+    /* flex-basis: 700px; */
+    margin-top: 75px;
+    margin-left:75px;
+
+
+}
+h1{
+    color:  #282828;    
+}
+p{
+    color: #484848;
+    font-weight: 500;
+
+}
+.image{
+    text-align:center;
+}
+.im{
+    max-width: 100%;
+}
+input[type = "email"]{
+    width: 320px;
+    height: 60px;
+    border: 4px solid black;
+    border-radius: 8px;
+    color: #888888;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+button{
+    height: 72px;
+    width:220px;
+    margin-left:15px;
+    color:#FFFFFF;
+    font-size: 20px;
+    line-height: 24.2px;
+    background: #282828;
+    border-radius: 8px;
+    border:1px solid rgb(97, 97, 3);
+    font-weight: 600;
+
+}
+
+.free{
+    font-size: 16px;
+    color:#FFFFFF;
+    font-weight: 500;
+    padding: 4px 37px;
+}
+
+.footer{
+    background: #282828;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color:#FFFFFF;
+    align-items: center;
+    padding-top:40px;
+    padding-bottom:40px;
+  
+    
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    margin-top:10px;
+}
+.list1{
+    margin-left: 180px;
+}
+.list2{
+    text-align: right;
+    margin-right: 240px;
+   
+}
